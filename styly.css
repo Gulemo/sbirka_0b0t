@@ -1,0 +1,91 @@
+#oUv{
+  width: 100%;
+  height: 90px;
+}
+.menu{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 30px;
+}
+body{
+background-color: darkgreen;
+display: grid;
+grid-template-columns: 999999999999999999999999999999999fr 1fr;
+
+}
+main{
+border: 6px solid darkblue;
+border-radius: 20px;
+background-color: #77C2EF;
+padding: 20px;
+
+}
+.tabulka{
+
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+li{
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+th{
+  text-align: center;
+}
+td{
+  text-align: center;
+  font-size: 25px;
+  border:2px solid black;
+}
+table{
+  width: 100%;
+}
+
+img{
+float: right;
+}
+td.obr{
+  width: 350px;
+}
+h1 {
+   text-align: center;
+}
+.ilegalmenu{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  padding: 30px;
+}
+.bannerdiv{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0px;
+  background-color: darkgreen;
+}
+.ilegaldiv{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  padding: 10px;
+}
+td.info{
+  font-size: 15px;
+}
+p::first-letter{
+  font-size: 30px;
+  font-weight: bold;
+  font-family: serif;
+}
+footer{
+  display: grid;
+  grid-template-columns: 3fr 2fr 3fr;
+}
+.footer{
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 20px;
+}
